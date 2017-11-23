@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7FB1DA1FC7362100A326F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FB1D91FC7362100A326F2 /* AppDelegate.m */; };
+		CA7FB1DC1FC7362100A326F2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA7FB1DB1FC7362100A326F2 /* GameScene.sks */; };
+		CA7FB1DE1FC7362100A326F2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA7FB1DD1FC7362100A326F2 /* Actions.sks */; };
+		CA7FB1E11FC7362100A326F2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FB1E01FC7362100A326F2 /* GameScene.m */; };
+		CA7FB1E41FC7362100A326F2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FB1E31FC7362100A326F2 /* GameViewController.m */; };
+		CA7FB1E71FC7362100A326F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7FB1E51FC7362100A326F2 /* Main.storyboard */; };
+		CA7FB1E91FC7362100A326F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7FB1E81FC7362100A326F2 /* Assets.xcassets */; };
+		CA7FB1EC1FC7362100A326F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7FB1EA1FC7362100A326F2 /* LaunchScreen.storyboard */; };
+		CA7FB1EF1FC7362100A326F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FB1EE1FC7362100A326F2 /* main.m */; };
+		CA7FB1F91FC7362200A326F2 /* ColorfulLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FB1F81FC7362200A326F2 /* ColorfulLineTests.m */; };
+		CA7FB2041FC7362200A326F2 /* ColorfulLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FB2031FC7362200A326F2 /* ColorfulLineUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA7FB1F51FC7362200A326F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7FB1CD1FC7362100A326F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7FB1D41FC7362100A326F2;
+			remoteInfo = ColorfulLine;
+		};
+		CA7FB2001FC7362200A326F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7FB1CD1FC7362100A326F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7FB1D41FC7362100A326F2;
+			remoteInfo = ColorfulLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7FB1D51FC7362100A326F2 /* ColorfulLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7FB1D81FC7362100A326F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA7FB1D91FC7362100A326F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA7FB1DB1FC7362100A326F2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CA7FB1DD1FC7362100A326F2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CA7FB1DF1FC7362100A326F2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CA7FB1E01FC7362100A326F2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CA7FB1E21FC7362100A326F2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CA7FB1E31FC7362100A326F2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CA7FB1E61FC7362100A326F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA7FB1E81FC7362100A326F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA7FB1EB1FC7362100A326F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA7FB1ED1FC7362100A326F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7FB1EE1FC7362100A326F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA7FB1F41FC7362200A326F2 /* ColorfulLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7FB1F81FC7362200A326F2 /* ColorfulLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulLineTests.m; sourceTree = "<group>"; };
+		CA7FB1FA1FC7362200A326F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7FB1FF1FC7362200A326F2 /* ColorfulLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7FB2031FC7362200A326F2 /* ColorfulLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulLineUITests.m; sourceTree = "<group>"; };
+		CA7FB2051FC7362200A326F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA7FB1D21FC7362100A326F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7FB1F11FC7362200A326F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7FB1FC1FC7362200A326F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA7FB1CC1FC7362100A326F2 = {
+			isa = PBXGroup;
+			children = (
+				CA7FB1D71FC7362100A326F2 /* ColorfulLine */,
+				CA7FB1F71FC7362200A326F2 /* ColorfulLineTests */,
+				CA7FB2021FC7362200A326F2 /* ColorfulLineUITests */,
+				CA7FB1D61FC7362100A326F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA7FB1D61FC7362100A326F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA7FB1D51FC7362100A326F2 /* ColorfulLine.app */,
+				CA7FB1F41FC7362200A326F2 /* ColorfulLineTests.xctest */,
+				CA7FB1FF1FC7362200A326F2 /* ColorfulLineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7FB1D71FC7362100A326F2 /* ColorfulLine */ = {
+			isa = PBXGroup;
+			children = (
+				CA7FB1D81FC7362100A326F2 /* AppDelegate.h */,
+				CA7FB1D91FC7362100A326F2 /* AppDelegate.m */,
+				CA7FB1DB1FC7362100A326F2 /* GameScene.sks */,
+				CA7FB1DD1FC7362100A326F2 /* Actions.sks */,
+				CA7FB1DF1FC7362100A326F2 /* GameScene.h */,
+				CA7FB1E01FC7362100A326F2 /* GameScene.m */,
+				CA7FB1E21FC7362100A326F2 /* GameViewController.h */,
+				CA7FB1E31FC7362100A326F2 /* GameViewController.m */,
+				CA7FB1E51FC7362100A326F2 /* Main.storyboard */,
+				CA7FB1E81FC7362100A326F2 /* Assets.xcassets */,
+				CA7FB1EA1FC7362100A326F2 /* LaunchScreen.storyboard */,
+				CA7FB1ED1FC7362100A326F2 /* Info.plist */,
+				CA7FB1EE1FC7362100A326F2 /* main.m */,
+			);
+			path = ColorfulLine;
+			sourceTree = "<group>";
+		};
+		CA7FB1F71FC7362200A326F2 /* ColorfulLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7FB1F81FC7362200A326F2 /* ColorfulLineTests.m */,
+				CA7FB1FA1FC7362200A326F2 /* Info.plist */,
+			);
+			path = ColorfulLineTests;
+			sourceTree = "<group>";
+		};
+		CA7FB2021FC7362200A326F2 /* ColorfulLineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7FB2031FC7362200A326F2 /* ColorfulLineUITests.m */,
+				CA7FB2051FC7362200A326F2 /* Info.plist */,
+			);
+			path = ColorfulLineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA7FB1D41FC7362100A326F2 /* ColorfulLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7FB2081FC7362200A326F2 /* Build configuration list for PBXNativeTarget "ColorfulLine" */;
+			buildPhases = (
+				CA7FB1D11FC7362100A326F2 /* Sources */,
+				CA7FB1D21FC7362100A326F2 /* Frameworks */,
+				CA7FB1D31FC7362100A326F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorfulLine;
+			productName = ColorfulLine;
+			productReference = CA7FB1D51FC7362100A326F2 /* ColorfulLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA7FB1F31FC7362200A326F2 /* ColorfulLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7FB20B1FC7362200A326F2 /* Build configuration list for PBXNativeTarget "ColorfulLineTests" */;
+			buildPhases = (
+				CA7FB1F01FC7362200A326F2 /* Sources */,
+				CA7FB1F11FC7362200A326F2 /* Frameworks */,
+				CA7FB1F21FC7362200A326F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7FB1F61FC7362200A326F2 /* PBXTargetDependency */,
+			);
+			name = ColorfulLineTests;
+			productName = ColorfulLineTests;
+			productReference = CA7FB1F41FC7362200A326F2 /* ColorfulLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA7FB1FE1FC7362200A326F2 /* ColorfulLineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7FB20E1FC7362200A326F2 /* Build configuration list for PBXNativeTarget "ColorfulLineUITests" */;
+			buildPhases = (
+				CA7FB1FB1FC7362200A326F2 /* Sources */,
+				CA7FB1FC1FC7362200A326F2 /* Frameworks */,
+				CA7FB1FD1FC7362200A326F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7FB2011FC7362200A326F2 /* PBXTargetDependency */,
+			);
+			name = ColorfulLineUITests;
+			productName = ColorfulLineUITests;
+			productReference = CA7FB1FF1FC7362200A326F2 /* ColorfulLineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA7FB1CD1FC7362100A326F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniel Abdelsamed";
+				TargetAttributes = {
+					CA7FB1D41FC7362100A326F2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CA7FB1F31FC7362200A326F2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA7FB1D41FC7362100A326F2;
+					};
+					CA7FB1FE1FC7362200A326F2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA7FB1D41FC7362100A326F2;
+					};
+				};
+			};
+			buildConfigurationList = CA7FB1D01FC7362100A326F2 /* Build configuration list for PBXProject "ColorfulLine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA7FB1CC1FC7362100A326F2;
+			productRefGroup = CA7FB1D61FC7362100A326F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA7FB1D41FC7362100A326F2 /* ColorfulLine */,
+				CA7FB1F31FC7362200A326F2 /* ColorfulLineTests */,
+				CA7FB1FE1FC7362200A326F2 /* ColorfulLineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA7FB1D31FC7362100A326F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7FB1E71FC7362100A326F2 /* Main.storyboard in Resources */,
+				CA7FB1DC1FC7362100A326F2 /* GameScene.sks in Resources */,
+				CA7FB1E91FC7362100A326F2 /* Assets.xcassets in Resources */,
+				CA7FB1EC1FC7362100A326F2 /* LaunchScreen.storyboard in Resources */,
+				CA7FB1DE1FC7362100A326F2 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7FB1F21FC7362200A326F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7FB1FD1FC7362200A326F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA7FB1D11FC7362100A326F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7FB1E11FC7362100A326F2 /* GameScene.m in Sources */,
+				CA7FB1E41FC7362100A326F2 /* GameViewController.m in Sources */,
+				CA7FB1EF1FC7362100A326F2 /* main.m in Sources */,
+				CA7FB1DA1FC7362100A326F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7FB1F01FC7362200A326F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7FB1F91FC7362200A326F2 /* ColorfulLineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7FB1FB1FC7362200A326F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7FB2041FC7362200A326F2 /* ColorfulLineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA7FB1F61FC7362200A326F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7FB1D41FC7362100A326F2 /* ColorfulLine */;
+			targetProxy = CA7FB1F51FC7362200A326F2 /* PBXContainerItemProxy */;
+		};
+		CA7FB2011FC7362200A326F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7FB1D41FC7362100A326F2 /* ColorfulLine */;
+			targetProxy = CA7FB2001FC7362200A326F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA7FB1E51FC7362100A326F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7FB1E61FC7362100A326F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA7FB1EA1FC7362100A326F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7FB1EB1FC7362100A326F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA7FB2061FC7362200A326F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA7FB2071FC7362200A326F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA7FB2091FC7362200A326F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THZ62EN57E;
+				INFOPLIST_FILE = ColorfulLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielabdelsamd.ColorfulLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA7FB20A1FC7362200A326F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THZ62EN57E;
+				INFOPLIST_FILE = ColorfulLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielabdelsamd.ColorfulLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA7FB20C1FC7362200A326F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THZ62EN57E;
+				INFOPLIST_FILE = ColorfulLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielabdelsamd.ColorfulLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorfulLine.app/ColorfulLine";
+			};
+			name = Debug;
+		};
+		CA7FB20D1FC7362200A326F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THZ62EN57E;
+				INFOPLIST_FILE = ColorfulLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielabdelsamd.ColorfulLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorfulLine.app/ColorfulLine";
+			};
+			name = Release;
+		};
+		CA7FB20F1FC7362200A326F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THZ62EN57E;
+				INFOPLIST_FILE = ColorfulLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielabdelsamd.ColorfulLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorfulLine;
+			};
+			name = Debug;
+		};
+		CA7FB2101FC7362200A326F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THZ62EN57E;
+				INFOPLIST_FILE = ColorfulLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielabdelsamd.ColorfulLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorfulLine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA7FB1D01FC7362100A326F2 /* Build configuration list for PBXProject "ColorfulLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7FB2061FC7362200A326F2 /* Debug */,
+				CA7FB2071FC7362200A326F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7FB2081FC7362200A326F2 /* Build configuration list for PBXNativeTarget "ColorfulLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7FB2091FC7362200A326F2 /* Debug */,
+				CA7FB20A1FC7362200A326F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7FB20B1FC7362200A326F2 /* Build configuration list for PBXNativeTarget "ColorfulLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7FB20C1FC7362200A326F2 /* Debug */,
+				CA7FB20D1FC7362200A326F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7FB20E1FC7362200A326F2 /* Build configuration list for PBXNativeTarget "ColorfulLineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7FB20F1FC7362200A326F2 /* Debug */,
+				CA7FB2101FC7362200A326F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA7FB1CD1FC7362100A326F2 /* Project object */;
+}
